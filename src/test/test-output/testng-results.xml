@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39593" started-at="2023-01-27T11:44:43Z" finished-at="2023-01-27T11:45:23Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="22024" started-at="2023-01-27T11:44:43Z" finished-at="2023-01-27T11:45:05Z">
+      <class name="MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:MultiBrowser@4450d156]" name="beforeTest" is-config="true" duration-ms="3782" started-at="2023-01-27T11:44:43Z" finished-at="2023-01-27T11:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:MultiBrowser@4450d156]" name="test" duration-ms="18232" started-at="2023-01-27T11:44:47Z" finished-at="2023-01-27T11:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- MultiBrowser -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="17556" started-at="2023-01-27T11:45:05Z" finished-at="2023-01-27T11:45:23Z">
+      <class name="MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:MultiBrowser@1a38c59b]" name="beforeTest" is-config="true" duration-ms="1201" started-at="2023-01-27T11:45:05Z" finished-at="2023-01-27T11:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:MultiBrowser@1a38c59b]" name="test" duration-ms="16355" started-at="2023-01-27T11:45:06Z" finished-at="2023-01-27T11:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- MultiBrowser -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
